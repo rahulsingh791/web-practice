@@ -1,4 +1,9 @@
+@charset "UTF-8";
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  background-color: #607D8B;
 }
+
+td {text-align: center;}

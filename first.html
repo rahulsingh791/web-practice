@@ -3,6 +3,11 @@
 <head>
 <title>First Page</title>
 <link rel="stylesheet" href="design.css">
+<meta name="description" content="First Example">
+<meta name="keywords" content="Learning">
+<meta name="author" content="Rahul Singh">
+<header><h1>Purpose of this website</h1><p>To Practise</p></header>
+
 </head>
 <body>
 <h1 style="color:red;">Hello</h1>
@@ -12,14 +17,46 @@
 <a href="http://www.google.com" target="_blank" style="color:grey;">Search Something</a>
 <p  title="Description">Enter the Search term and click search</p>
 <button onclick="document.location='http://www.unsplash.com'">Download Something Beautiful</button>
-<br><br><a href="mailto:me@myid.com">Send Me a Mail</a>
+
 <br><br><a href="http://www.ferrari.com"><img style="width:250px;" src="running.jpg"></a>
-<br><br><table style="width:50%">
+<br><br><table style="width:20%">
     <caption>Dish Pricing</caption>
     <tr>
       <th>Dish</th>
       <th>Price</th>
     </tr>
-    <tr><td>Noodles</td><td>50</td></tr>
+    <tr><td>Noodles</td><td rowspan="2">50</td></tr>
+    <tr><td>Chicken Soup</td></tr>
+  </table>
+      <br><br>
+      <aside>
+    <p>Animals :</p>
+      <ol>
+        <li>Kingfisher</li>
+        <li>Crocodile</li>
+      </ol>
+
+    <p>Planets :</p>
+      <ul>
+        <li>Neptune</li>
+        <li>Jupiter</li>
+      </ul>
+
+    <p>Foods :</p>
+    <dl>
+      <dt>Burger</dt>
+      <dd>- Junk</dd>
+      <dt>Vegetables</dt>
+      <dd>- Healthy</dd>
+    </dl>
+  </aside>
+  <article style="font-weight:bold;"><h1>This is a new World</h1><p>Hello World!!</p></article>
+  <figure>
+    <img src="cute.jpg" width=300>
+    <figcaption>Cute Small Animal</figcaption>
+  </figure>
+  <footer>
+    <br><br><a href="mailto:me@myid.com">Send Me a Mail</a>
+  </footer>
 </body>
 </html>
