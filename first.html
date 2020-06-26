@@ -7,7 +7,7 @@
 <meta name="keywords" content="Learning">
 <meta name="author" content="Rahul Singh">
 <header><h1>Purpose of this website</h1><p>To Practise</p></header>
-
+<script src="webstorage.js"></script>
 </head>
 <body>
 <h1 style="color:red;">Hello</h1>
@@ -55,8 +55,26 @@
     <img src="cute.jpg" width=300>
     <figcaption>Cute Small Animal</figcaption>
   </figure>
+<div id="nameform">
+<form>
+  <label for="fname">First Name :</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last Name :</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <button onclick="savename()">Save</button>
+</form>
+</div>
+
   <footer>
     <br><br><a href="mailto:me@myid.com">Send Me a Mail</a>
   </footer>
+
+  <audio controls>
+    <source src="Spenta_Mainyu.mp3" type="audio/mpeg">
+  </audio><br><br>
+
+  <video width="400" controls>
+    <source src="video.mp4" type="video/mp4">
+  </video>
 </body>
 </html>
