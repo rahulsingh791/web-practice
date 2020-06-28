@@ -6,4 +6,64 @@ table, th, td {
   background-color: #607D8B;
 }
 
+#foot {
+  border-style: groove;
+  border-radius: 5px;
+  padding: 25px 50px 75px 100px;
+
+}
+
+img {
+  float: right;
+}
+
+figure.clearfix {
+  overflow: auto;
+}
+
+figure {
+  clear: left;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+section {
+  overflow: scroll;
+}
+
+li {
+  list-style-type: lower-alpha;
+  display: inline;
+}
+
+a {
+  display: block;
+}
+
+#vid {
+  background-color:darkgrey;
+  width: 400px;
+  border: 15px solid pink;
+  padding: 10px;
+  margin: 10px;
+}
+
+body {
+  background-color: 	#D3D3D3;
+}
+
+h1 {
+  color: #A9A9A9;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: opensans;
+  font-size: 20px;
+}
+
 td {text-align: center;}
