@@ -72,9 +72,28 @@ a {
   padding: 10px;
   margin: 10px;
 }
-
+@media screen and (min-width: 220px) {
+  body {
+    background-color: #eeeeee;
+  }
+}
 body {
   background-color: 	#D3D3D3;
+}
+
+#flexcontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #783963;
+}
+
+#flexcontainer > div {
+  background-color: #eeeeee;
+  width: 140px;
+  margin: 140px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 40px;
 }
 
 #b1 {
