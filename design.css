@@ -4,6 +4,8 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   background-color: #607D8B;
+  color: black;
+  text-shadow: 1px 2px 3px #ffffff;
 }
 
 #foot {
@@ -11,6 +13,27 @@ table, th, td {
   border-radius: 5px;
   padding: 25px 50px 75px 100px;
 
+}
+
+p::first-line {
+  color: #0000ff;
+}
+
+::selection {
+  color: blue;
+  background: grey;
+}
+
+a:link {
+  color: #00aa00;
+}
+
+a:visited {
+  color: #aa0000;
+}
+
+a:active {
+  color: #0000aa;
 }
 
 img {
@@ -52,6 +75,33 @@ a {
 
 body {
   background-color: 	#D3D3D3;
+}
+
+#b1 {
+  width: 300px;
+  height: 100px;
+  border: 2px dotted yellow;
+  box-sizing: border-box;
+}
+
+#b2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+#smallbox {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  transition: width 3s, height 6s;
+}
+
+#smallbox:hover {
+  width: 400px;
+  height: 500px;
 }
 
 h1 {
